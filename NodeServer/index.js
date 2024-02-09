@@ -22,4 +22,4 @@ router.get('/sobre', function(req,res){
 app.use('/', router);
 app.listen(process.env.port || 3000);
 
-console.log("O servidor está rodando")
+console.log("O servidor está rodando na porta 127.0.0.1:3000")
