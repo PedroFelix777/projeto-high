@@ -1,0 +1,222 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;500;700&family=Roboto:wght@100;300;500&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    padding: 0px 100px;
+    background-color: black;
+    color: white;
+}
+
+.logo h1{
+    font-style: italic;
+}
+
+.navgation ul{
+    display: flex;
+}
+
+.navgation li{
+    display: flex;
+    list-style-type: none;
+    margin-right: 25px;
+}
+
+.navgation a{
+    color: white;
+    text-decoration: none;
+    font-weight: 100;
+    font-size: 20px;
+}
+
+.welcome{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #F0E9E5;
+    padding: 20px;
+}
+
+.welcome span{
+    font-style: italic;
+}
+
+.welcome h1{
+    font-weight: 300;
+}
+
+.image-welcome{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 50px;
+}
+
+.image-welcome img{
+    max-width: 80%;
+}
+
+.produtos{
+    margin-top: 20px;
+}
+
+.titulo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 15px;
+}
+
+.titulo h1{
+    font-weight: 500;
+    border-bottom: 2px solid black;
+}
+
+.info-destaque{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 40px 180px;
+}
+
+.destaque-text{
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.destaque-text h1{
+    margin-bottom: 10px;
+}
+
+.destaque-text p{
+    font-size: 20px;
+    max-width: 45%;
+    font-weight: 300;
+}
+
+.destaque-text button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    padding: 5px;
+    width: 100px;
+    background-color: black;
+    border: none;
+    border-radius: 10px;
+}
+
+.destaque-text a{
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+.destaque-image{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.destaque-image img{
+    width: 95%;
+}
+
+.box{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 40px 180px;
+}
+
+.box-content{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    height: 350px;
+    width: 30%;
+    border: 1px solid black;
+}
+
+.box-content img{
+    width: 100%;
+}
+
+.box-content p{
+    margin-top: 20px;
+    font-weight: 300;
+}
+
+.box-content button{
+    background-color: black;
+    border: none;
+    border-radius: 5px;
+    margin-top: 20px;
+    padding: 5px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box-content a{
+    color: white;
+    text-decoration: none;
+}
+
+.colagem{
+    margin-top: 50px;   
+}
+
+.colagem img{
+    width: 100%;
+}
+
+
+.vestuario{
+    margin-top: 20px;
+}
+
+.roupa{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 50px 150px ;
+}
+
+.peca{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 200px;
+    
+}
+
+.peca h1{
+    padding: 10px;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.peca button{
+    padding: 5px 50px;
+    background-color: black;
+    border: none;
+    border-radius: 10px;
+}
+
+.peca button a{
+    text-decoration: none;
+    color: white;
+}
+
+
