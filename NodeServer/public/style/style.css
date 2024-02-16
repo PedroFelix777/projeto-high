@@ -48,6 +48,7 @@ menu{
 
 .welcome span{
     font-style: italic;
+    font-weight: 500;
 }
 
 .welcome h1{
@@ -207,6 +208,13 @@ menu{
     font-weight: 300;
 }
 
+button:hover{
+    background-color:#F0E9E5 ;
+}
+button a:hover{
+    color: black;
+}
+
 .peca button{
     padding: 5px 50px;
     background-color: black;
@@ -223,3 +231,35 @@ menu{
     margin-top: 20px;
 }
 
+.contato{
+    margin-top: 40px;
+}
+
+.info-contato{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.info-contato p{
+    margin-top: 10px;
+    font-weight: 300;
+}
+
+.info-contato h1{
+    font-weight: 500;
+}
+
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    margin-top: 40px;
+}
+
+footer img{
+    width: 30px;
+}
